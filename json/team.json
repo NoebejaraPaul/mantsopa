@@ -1,0 +1,25 @@
+{
+    "teamMembers": [
+      {
+        "name": "Thabo Thabo",
+        "jobTitle": "CEO",
+        "image": "assets/images/team/image3.png"
+      },
+      {
+        "name": "Thabo Thabo",
+        "jobTitle": "CFO",
+        "image": "assets/images/team/image1.png"
+      },
+      {
+        "name": "Thabo Thabo",
+        "jobTitle": "Team Leader",
+        "image": "assets/images/team/image1.png"
+      },
+      {
+        "name": "Thabo Thabo",
+        "jobTitle": "Project Manager",
+        "image": "assets/images/team/image3.png"
+      }
+    ]
+  }
+  
