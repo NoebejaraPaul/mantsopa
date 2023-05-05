@@ -72,3 +72,23 @@ fetch('json/content.json')
     });
 
 
+            // Fetch the JSON data
+fetch('json/services.json')
+.then(response => response.json())
+.then(data => {
+  const eventsContainer = document.querySelector('.event-row');
+  const eventTemplate = document.querySelector('#event-template');
+
+  // Loop through the events and generate event boxes
+  data.events.forEach(event => {
+    // Clone the event template and fill in the data
+    const eventBox = eventTemplate.content.cloneNode(true);
+    eventBox.querySelector('img').src = event.image;
+    eventBox.querySelector('h4').textContent = event.title;
+    eventBox.querySelector('.desic').textContent = event.description;
+
+    // Append the event box to the events container
+    eventsContainer.appendChild(eventBox);
+  });
+});
+
