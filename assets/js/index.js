@@ -51,4 +51,24 @@ fetch('json/content.json')
   });
 });
 
+// about section
+
+  // Get the JSON data from the file
+  fetch('json/about.json')
+    .then(response => response.json())
+    .then(data => {
+      // Update the HTML elements with the data
+      document.getElementById('mission-paragraph').innerHTML = data.mission.paragraph;
+      document.getElementById('vision-image').src = data.mission.image;
+      document.getElementById('vision-paragraph').innerHTML = data.vision.paragraph;
+      document.getElementById('mission-image').src = data.vision.image;
+
+      const objectivesList = document.getElementById('objectives-list');
+      data.objectives.forEach(objective => {
+        const listItem = document.createElement('li');
+        listItem.innerHTML = `&#x2022; ${objective}`;
+        objectivesList.appendChild(listItem);
+      });
+    });
+
 
