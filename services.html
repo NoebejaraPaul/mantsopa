@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -126,10 +127,29 @@
     </div>
 </div>
     
-    
+<section class="events">
+    <div class="container">
+      <div class="event-row row"></div>
+    </div>
+  </section>
+  
+  
+  <!-- Template for individual event boxes -->
+<template id="event-template">
+    <div class="col-md-4 col-sm-6">
+      <div class="event-box d-flex flex-column justify-content-center align-items-center">
+        <img src="" alt="">
+        <h4 class="text-center"></h4>
+        <p class="desic text-center"></p>
+        <div class="btn-container">
+          <button class="btn btn-success btn-sm">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </template>
    
   <!-- ################# Events Start Here#######################--->
-    <section class="events">
+    <!-- <section class="events">
         <div class="container">
            
             <div class="event-ro row">
@@ -138,7 +158,7 @@
                         <img src="assets/images/events/strutegic.JPG" alt="">
                         <h4>Strategic Social and behavioral change</h4>
                         
-                        <!--<p class="raises"><span>Raised : $34,425</span> / $500,000 </p> -->
+                        
                         <p class="desic"> HIV and AIDS TB Gender Councling Nutrition nad Pediactric AIDS Sexual Health Reproductive Health Immunisation </p>
                         <button class="btn btn-success btn-sm">Learn More</button>
                     </div>
@@ -147,7 +167,7 @@
                     <div class="event-box">
                         <img src="assets/images/events/child.jpg" alt="">
                         <h4>Advocancy For Protection of Children </h4>
-                        <!--<p class="raises"><span>Raised : $34,425</span> / $500,000 </p>-->
+                        
                         <p class="desic"> Adolescent heealth and communication Children in emergencies, Multimedia production Research for children </p>
                         <button class="btn btn-success btn-sm">Learn More</button>
                     </div>
@@ -156,7 +176,7 @@
                     <div class="event-box">
                         <img src="assets/images/events/health.jpg" alt="">
                         <h4>Health Communication </h4>
-                        <!--<p class="raises"><span>Raised : $34,425</span> / $500,000 </p>-->
+                        
                         <p class="desic"> Young people Men and Women key populations </p>
                         <button class="btn btn-success btn-sm">Learn More</button>
                     </div>
@@ -165,7 +185,7 @@
                     <div class="event-box">
                         <img src="assets/images/events/image6.png" alt="">
                         <h4>Human Development</h4>
-                        <!--<p class="raises"><span>Raised : $34,425</span> / $500,000 </p>-->
+                        
                         <p class="desic"> Gender equality Prevention of sexual and gender based violence against women and girls </p>
                         <button class="btn btn-success btn-sm">Learn More</button>
                     </div>
@@ -174,7 +194,7 @@
                     <div class="event-box">
                         <img src="assets/images/events/foodsec.png" alt="">
                         <h4> Food Security and Nutrition </h4>
-                        <!---<p class="raises"><span>Raised : $34,425</span> / $500,000 </p>-->
+                        
                         <p class="desic"> Availabity and access reaserch Training communities on proper nutrition Food security </p>
                         <button class="btn btn-success btn-sm">Learn More</button>
                     </div>
@@ -183,14 +203,14 @@
                     <div class="event-box">
                         <img src="assets/images/events/image6.png" alt="">
                         <h4>Water Sanitation</h4>
-                        <!---<p class="raises"><span>Raised : $34,425</span> / $500,000 </p>-->
+                        
                         <p class="desic"> Water and sanitation hyiene focus group discusions Music, Dance, Drama </p>
                         <button class="btn btn-success btn-sm">Learn More</button>
                     </div>
                 </div>
             </div>
         </div>
-    </section>   
+    </section>    -->
       
        
   
@@ -273,7 +293,7 @@
           
     
 </body>
-
+<script src="index.js"></script>
 <script src="assets/js/jquery-3.2.1.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>

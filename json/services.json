@@ -1,0 +1,38 @@
+{
+    "events": [
+      {
+        "image": "assets/images/events/child.jpg",
+        "title": "Strategic Social and behavioral change",
+        "description": "HIV and AIDS TB Gender Councling Nutrition nad Pediactric AIDS Sexual Health Reproductive Health Immunisation"
+      },
+      {
+        "image": "assets/images/events/child.jpg",
+        "title": "Advocacy For Protection of Children",
+        "description": "Adolescent health and communication, Children in emergencies, Multimedia production, Research for children"
+      },
+      {
+        "image": "assets/images/events/health.jpg",
+        "title": "Health Communication",
+        "description": "Young people, Men and Women, key populations"
+      }
+      ,
+      {
+        "image": "assets/images/events/image6.png",
+        "title": "Human Development",
+        "description": "Gender equality Prevention of sexual and gender based violence against women and girls"
+      }
+      ,
+      {
+        "image": "assets/images/events/foodsec.png",
+        "title": "Food Security and Nutrition",
+        "description": "vailabity and access reaserch Training communities on proper nutrition Food security"
+      }
+      ,
+      {
+        "image": "assets/images/events/health.jpg",
+        "title": "Health Communication",
+        "description": "Young people, Men and Women, key populations"
+      }
+    ]
+  }
+  
