@@ -559,7 +559,7 @@ header {
 
 /* ===================================== Charity Number CSS ================================== */
 .doctor-message {
-  background-image: url("../images/slider/slider-2.jpg");
+  background-image: url("../images/slider/dencers.jpg");
   background-attachment: fixed;
   background-size: cover; }
   .doctor-message .session-title h2 {
@@ -805,5 +805,18 @@ header {
   line-height: 2;
 }
 
+ .det-o {
+  padding: 20px;
+  background-color: #eb4b19;
+}
+   .det-o h4 {
+    color: #FFF;
+    margin-bottom: 0px;
+    font-size: 19px;
+    font-weight: 600; 
+  }
+   .det-o i {
+    color: #FFF;
+    font-size: 15px; }
 
 /*# sourceMappingURL=style.css.map */

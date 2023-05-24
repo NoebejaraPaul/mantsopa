@@ -34,22 +34,22 @@ fetch('json/content.json')
 
 // team section
 
-  $(document).ready(function() {
-  $.getJSON("json/team.json", function(data) {
-    var teamMembers = data.teamMembers;
-    var teamHtml = "";
-    $.each(teamMembers, function(index, member) {
-      teamHtml += '<div class="col-md-3 col-sm-6">';
-      teamHtml += '<div class="single-usr">';
-      teamHtml += '<img src="' + member.image + '" alt="">';
-      teamHtml += '<div class="det-o">';
-      teamHtml += '<h4 style="font-size: 17px;">' + member.name + '</h4>';
-      teamHtml += '<i style="font-size: 17px;">' + member.jobTitle + '</i>';
-      teamHtml += '</div></div></div>';
-    });
-    $("#team-members").html(teamHtml);
-  });
-});
+//   $(document).ready(function() {
+//   $.getJSON("json/team.json", function(data) {
+//     var teamMembers = data.teamMembers;
+//     var teamHtml = "";
+//     $.each(teamMembers, function(index, member) {
+//       teamHtml += '<div class="col-md-3 col-sm-6">';
+//       teamHtml += '<div class="single-usr">';
+//       teamHtml += '<img src="' + member.image + '" alt="">';
+//       teamHtml += '<div class="det-o">';
+//       teamHtml += '<h4 style="font-size: 17px;">' + member.name + '</h4>';
+//       teamHtml += '<i style="font-size: 17px;">' + member.jobTitle + '</i>';
+//       teamHtml += '</div></div></div>';
+//     });
+//     $("#team-members").html(teamHtml);
+//   });
+// });
 
 // about section
 
