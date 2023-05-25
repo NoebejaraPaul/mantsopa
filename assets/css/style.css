@@ -749,7 +749,13 @@ header {
   background-color: #FFF; }
   @media screen and (max-width: 940px) {
     .gallery {
-      padding: 30px 10px; } }
+      padding: 30px 10px; }
+      
+    .gallery-filter {
+      font-size: 10px;
+      padding: 10px;
+    }
+    }
 
 .gallery-title {
   font-size: 36px;
