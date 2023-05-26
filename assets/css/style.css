@@ -823,6 +823,20 @@ header {
   }
    .det-o i {
     color: #FFF;
-    font-size: 15px; }
+    font-size: 15px;
+   }
 
+    .event-description {
+      font-size: 18px; 
+      margin: 20px auto;
+      padding-left: 60px;
+      padding-right: 60px;
+      text-align: center;
+    }
+
+    .desic{
+      font-size: 15px;
+      line-height: 1.5;
+      
+    }
 /*# sourceMappingURL=style.css.map */

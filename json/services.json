@@ -2,36 +2,36 @@
     "events": [
       {
         "image": "assets/images/events/child.jpg",
-        "title": "Strategic Social and behavioral change",
-        "description": "HIV and AIDS TB Gender Councling Nutrition nad Pediactric AIDS Sexual Health Reproductive Health Immunisation"
+        "title": "HIV Prevention Programs",
+        "description": "Mantsopa Institute specialises in implementing comprehensive HIV prevention activities nationwide. With over a decade of experience, we have developed expertise in designing and delivering effective programs to raise awareness, promote behaviour change, and reduce the spread of HIV. Our focus is on reaching diverse populations, including youth, through innovative strategies such as radio dramas, magazines, and community engagement."
       },
       {
         "image": "assets/images/events/child.jpg",
-        "title": "Advocacy For Protection of Children",
-        "description": "Adolescent health and communication, Children in emergencies, Multimedia production, Research for children"
+        "title": "Radio Production:",
+        "description": "At Mantsopa Institute, we excel in creating engaging and informative radio programs. Our team collaborates with various radio stations to produce learner's programs and radio dramas that educate and inspire the audience. By leveraging the power of radio, we effectively disseminate critical information on health, education, and gender-related topics to communities across Lesotho."
       },
       {
         "image": "assets/images/events/health.jpg",
-        "title": "Health Communication",
-        "description": "Young people, Men and Women, key populations"
+        "title": "Partnerships with Ministries and UN Agencies",
+        "description": "We have established long-term relationships and collaborations with the Ministries of Health, Education, and Gender, as well as UN agencies. These partnerships enable us to work closely with government entities and international organisations to implement impactful programs, align with national policies, and contribute to the achievement of health, education, and gender equality goals."
       }
       ,
       {
         "image": "assets/images/events/image6.png",
-        "title": "Human Development",
-        "description": "Gender equality Prevention of sexual and gender based violence against women and girls"
+        "title": "Youth Engagement Initiatives",
+        "description": "Recognizing the importance of youth empowerment, we actively engage with youth organisations to address their unique needs and concerns. Through tailored programs and initiatives, we provide platforms for young individuals to participate, contribute, and lead in areas of health, education, and community development. Our goal is to foster the potential of the next generation and create lasting change."
       }
       ,
       {
         "image": "assets/images/events/foodsec.png",
-        "title": "Food Security and Nutrition",
-        "description": "vailabity and access reaserch Training communities on proper nutrition Food security"
+        "title": "Private Sector Collaboration",
+        "description": "Mantsopa Institute values the participation of the private sector in social development. We collaborate with private companies to harness their resources, expertise, and networks to amplify the impact of our programs. By forging partnerships with the business community, we leverage additional support and enhance the sustainability of our initiatives"
       }
       ,
       {
         "image": "assets/images/events/health.jpg",
-        "title": "Health Communication",
-        "description": "Young people, Men and Women, key populations"
+        "title": "Community Outreach and Engagement",
+        "description": "Our commitment to community development drives us to actively engage with local communities. Through partnerships with community-based organisations, parents groups, and clubs, we ensure that our services are inclusive, responsive, and aligned with the needs and aspirations of the people we serve. We facilitate dialogues, conduct awareness campaigns, and promote active participation to foster positive social change."
       }
     ]
   }
