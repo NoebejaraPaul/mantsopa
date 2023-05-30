@@ -1,7 +1,7 @@
 {
     "blogPosts": [
       {
-        "image": "assets/images/events/image5.png",
+        "image": "assets/images/blog/culture.jpg",
         "author": "Mantsopa Institute",
         "date": "August 2023",
         "title": "The Vibrant Arts and Culture Scene in Lesotho",
@@ -9,7 +9,7 @@
         "link": "#"
       },
       {
-        "image": "assets/images/events/image6.png",
+        "image": "assets/images/blog/empower.JPG",
         "author": "Mantsopa Institute",
         "date": "August 2023",
         "title": " Empowering Basotho Individuals",
@@ -17,7 +17,7 @@
         "link": "#"
       },
       {
-        "image": "assets/images/events/image5.png",
+        "image": "assets/images/blog/promoting.JPG",
         "author": "Mantsopa Institute",
         "date": "August 2023",
         "title": "Promoting Lesotho as a Captivating Tourism Destination",
