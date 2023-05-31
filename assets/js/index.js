@@ -17,7 +17,7 @@ fetch('json/content.json')
           '<h4 style="font-size: 17px;">' + blogPost.title + '</h4>' +
           '<p style="font-size: 15px;">' + blogPost.description + '</p>' +
           '<div class="link">' +
-          '<a href="' + blogPost.link + '">Read more </a><i class="fas fa-long-arrow-alt-right"></i>' +
+          // '<a href="' + blogPost.link + '">Read more </a><i class="fas fa-long-arrow-alt-right"></i>' +
           '</div>' +
           '</div>' +
           '</div>' +
